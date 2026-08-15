@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+}
+
+.block{
+    background-color: bisque;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: #aa1616;
+    transition: 1s;
+}
+
+.item:hover {
+    background-color: gray;
+    border-radius: 50%;
+    transition: 1s;
+}
