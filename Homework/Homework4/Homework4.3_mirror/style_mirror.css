@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+}
+
+header {
+    height: 4.4763vh;
+    background: #D9D9D9;
+}
+
+aside {
+    width: 40.6250vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-part {
+    height: 39.8389vh;
+    background: #7F7A7A;
+}
+
+.bottom-part {
+    height: 33.8406vh;
+    background: #615050;
+}
+
+main {
+    display: flex;
+}
+
+.content {
+    height: 73.6795vh;
+    width: 59.3750vw;
+    background: #A4A4A4;
+}
+
+.additional-section {
+    height: 9.9373vh;
+    background: #D9D9D9;
+}
+
+footer {
+    height: 11.9069vh;
+    background: #AFA9A9;
+}
