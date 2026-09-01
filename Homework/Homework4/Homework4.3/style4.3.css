@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+}
+header{
+    height: 4.4763vh;
+    background: #D9D9D9;
+}
+main {
+    display: flex;
+}
+.big{
+    height: 73.6795vh;
+    width: 59.3750vw;
+    background: #A4A4A4;
+}
+main aside{
+    width: 40.6250vw;
+    display: flex;
+    flex-direction: column;
+}
+.top-box{
+    height: 39.8389vh;
+    width: 40.6250vw;
+    background: #7F7A7A;
+}
+.bottom-box {
+    height: 33.8406vh;
+    width: 40.6250vw;
+    background: #615050;
+}
+.small{
+    height: 9.9373vh;
+    background: #D9D9D9;
+}
+footer{
+    height: 11.9069vh;
+    background: #AFA9A9;
+}
