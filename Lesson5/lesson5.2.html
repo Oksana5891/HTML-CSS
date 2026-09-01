@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .pink-box{
+            width: 200px;
+            height: 200px;
+            margin: 100px auto 0 auto;
+            background-color: deeppink;
+            animation: pink-box 5s linear infinite alternate;
+        }
+
+        @keyframes pink-box {
+            from{
+                /*transform: scale(1.5) rotate(60deg);*/
+                /*transform: skewY(40deg);*/
+                transform: translateX(-300px);
+            }
+            /*50%{*/
+            /*    border-radius: 20%;*/
+            /*    transform: rotate(-60deg);*/
+            /*}*/
+            to{
+                /*transform: scale(1) rotate(0deg);*/
+                background-color: #6aff50;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="pink-box"></div>
+
+</body>
+</html>
+
