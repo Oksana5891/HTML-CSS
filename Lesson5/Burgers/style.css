@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Bowlby+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background: #1E1E1E;
 }
 
-.w-1340{
+.w-1340 {
     width: 1340px;
     margin: 0 auto;
     /*display: flex;*/
@@ -19,14 +19,14 @@ body{
     /*flex-direction: column;*/
 }
 
-nav{
+nav {
     padding-top: 36px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
 
-ul{
+ul {
     list-style: none;
     display: flex;
     align-items: center;
@@ -34,7 +34,7 @@ ul{
     gap: 59px;
 }
 
-ul a{
+ul a {
     color: #E9E3DC;
     font-family: "Bowlby One", sans-serif;
     font-size: 18px;
@@ -45,7 +45,7 @@ ul a{
     text-decoration: none;
 }
 
-.nav__active-link{
+.nav__active-link {
     width: 203px;
     height: 60px;
     background: #B3A0CD;
@@ -55,7 +55,7 @@ ul a{
     align-items: center;
 }
 
-.header-title{
+.header-title {
     width: 1255px;
     color: #E9E3DC;
     text-align: center;
@@ -69,12 +69,12 @@ ul a{
     margin: 74px auto 33px auto;
 }
 
-.burger{
+.burger {
     display: block;
     margin: 0 auto;
 }
 
-.about{
+.about {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -86,7 +86,7 @@ ul a{
     margin: 32px auto 64px auto;
 }
 
-.about h3{
+.about h3 {
     color: #1E1E1E;
     font-family: "Bowlby One", sans-serif;
     font-size: 70px;
@@ -100,14 +100,14 @@ ul a{
     margin: 98px auto 85px 109px;
 }
 
-.burgers{
+.burgers {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.burgers p{
+.burgers p {
     width: 521px;
     height: 75px;
     color: #1E1E1E;
@@ -120,7 +120,7 @@ ul a{
     margin: 100px 149px 0 28px;
 }
 
-.burger-btn{
+.burger-btn {
     width: 176px;
     height: 60px;
     border: 4px solid #1E1E1E;
@@ -136,4 +136,46 @@ ul a{
     line-height: 96.896%; /* 17.441px */
     text-transform: uppercase;
     margin: 34px auto 100px 28px;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 64px;
+}
+
+.full-width-image {
+    margin-bottom: 64px;
+}
+
+.order-title {
+    width: 895px;
+    color: #E9E3DC;
+    text-align: center;
+    font-family: "Bowlby One", sans-serif;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 101.896%; /* 71.328px */
+    text-transform: uppercase;
+    margin: auto auto 33px auto;
+}
+
+.order-btn {
+    width: 196px;
+    height: 60px;
+    background: #D1EF53;
+    border: none;
+    display: block;
+    color: #1E1E1E;
+    text-align: center;
+    font-family: "Bowlby One", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 96.896%; /* 17.441px */
+    text-transform: uppercase;
+    margin: auto auto 36px auto;
 }
