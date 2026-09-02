@@ -1,0 +1,30 @@
+body{
+    background-color: #007bff;
+}
+
+.pulse {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 300px auto 0 auto;
+    animation: pulse 2s linear infinite;
+}
+
+.heart {
+    font-size: 200px;
+    color: yellow;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.5);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
