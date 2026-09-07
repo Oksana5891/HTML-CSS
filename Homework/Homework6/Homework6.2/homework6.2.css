@@ -1,0 +1,59 @@
+body {
+    background-color: darkcyan;
+}
+
+form.login {
+    background-color: white;
+    width: 500px;
+    height: 400px;
+    margin: 200px auto;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header.title {
+    height: 25%;
+    background-color: #e1f4f4;
+    border-radius: 15px 15px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title h1 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.body {
+    padding: 15px 60px 0 60px;
+}
+
+.input-fields {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.input-fields input {
+    height: 40px;
+    padding: 0 10px;
+    border: 1px solid gray;
+}
+
+.options {
+    padding: 30px 60px 0 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.options > button {
+    width: 90px;
+    height: 25px;
+    border: 1px solid gray;
+    border-radius: 7px;
+    background-color: #e1f4f4;
+}
