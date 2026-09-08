@@ -1,21 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 body {
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20px auto 20px auto;
-    gap: 2%;
+    margin: 0;
+    box-sizing: border-box;
+    padding-top: 20px;
+    gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .login-option, .signup-option {
     width: 600px;
-    border: 1px solid gray;
+    border: 2px solid lightgray;
 }
 
 .login-option {
-    height: 70%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .signup-option {
-    height: 23%;
+    height: 15%;
+}
+
+.login-option > h1 {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    margin: 50px auto 50px auto;
+}
+
+.login-option > form > .input-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.input-section > .login, .input-section > .password, .input-section > .cta-btn {
+    width: 450px;
+    height: 40px;
+}
+
+.login-option > form > .input-section > .login {
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    background-color: #f8f6f6;
+}
+
+.login-option > form > .input-section > .password {
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    background-color: #f8f6f6;
+}
+
+.login-option > form > .input-section > .cta-btn {
+    margin: 20px 0 40px 0;
+    background-color: #64afdd;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.login-option > form > span {
+    display: block;
+    margin-bottom: 30px;
+    text-align: center;
+    color: gray;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.login-option > form > .link-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.login-option > form > .link-section a {
+    text-decoration: none;
+    color: #073478;
+    font-weight: bold;
+
+}
+
+.login-option > form > .link-section a:first-child {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.login-option > form > .link-section a:first-child::before {
+    content: "";
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAADYUlEQVR4nO2ZzU4TURTHeYHSe2c6idG9r2BYu5GYYOnM9JMCYeXGxBWJaxcVsNAWKi2lgIDAyp1bwiPIA5jwYQyYGCRojBE95k5n2unMnZnOvQPpYk7y33T1+92cO+dMZ2AgrLDCCqsvKzK18zgyufs5MrkHg5O7enZgcMLIOz3bEB03smXKJkTzJG+1IC0bgMaMrOtZA5RrBeeanWRXtaBM4xRn68P+BSb2TiNtcJ/weX/w2AEeZxtaUHblxL9An8DjbAOEzAr4FggMfowfXmAX6A94gU3ACu4Ev+kBb4Cv65e1CTizAihVBaRWIKqUACllPRVAyaoFvq7Fv8BNwGcacC9fgxfrB3BweAxfvl3BxdUvLSdfL+Hw0zlE5QUbPKOAP3jUA/yD51twfH4JboUS8zZ4IV3jEQgAPteEu2PLcHT23RW+I9ANzyHgNqDM8Bsu8GuAMzWYXt2HXgolijZ4Ib3MIhAQfK6pXdj9j0c22LOLH/BwehuwPK+dPIHH2h3ohhdZBIKC1wTUCpxf/LQJPC1/ACFV7e75tB2eUSAYeJKoXILff65tAvenapZ+p8OLqTc8AnzwZDgRAVqJit4uXS1jgk+14NkF8sFslOTZ7nph0+7wYqrKIMCxlKHkknbqrSxANFGkC4zOARp9bcocCGrZBs8hwLbXOLWMV73cOgBRXbTBi0kmAfaljFVgvPAexOSSDZ78xiTgPl2t8KuePe9VQ8+aLWALfIxFgBWebJIsAtd//8EdtUiFjyUXGQR6hW+Dm14ByWqc6ExXcjlpheMzgOOz7QhykQrPIeAfnrbLEwm6wCz1wlrhYyqTgPeAssKb36DME5Y8It0Fqjr8EhU+plY4BDjhyXByF6h6wrML8MCb9hq3OyD2AB9TywwCAcGT1QC7CSQNcGd4ZoEg4Mleg+MOAk9e9QQvKQwCfv7y8NooSa/TSmgLGPAVKryklDgEOOHJU8ZdYNETnl0gAPiWwIyDQKEneElZYBBggO+8QXWvw44CI4We4DkEnKerM7wB3hlQQnxOu7CkZcipaxkpgEhayAZfssFLMpNAMPBOqwH95EtUeEmeZxe4DXhJcYdnEiBfRvoFXpKL/j9w4FR9GKfrpzcDX3aGl83gLXhptPjIt0BYYYUV1sBt1H9ja3+JK6NR4QAAAABJRU5ErkJggg==");
+    background-size: cover;
+}
+
+.login-option > form > .link-section a:last-child {
+    font-size: 20px;
+}
+
+.signup-option > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto 50px auto;
+    gap: 7px;
+    font-size: 25px;
+}
+
+.signup-option > div > a {
+    text-decoration: none;
+    color: #64afdd;
+    font-weight: bold;
 }
