@@ -8,11 +8,13 @@
     list-style-type: none;
 }
 
+/*HEADER*/
+
 header {
     width: 100%;
     height: 113px;
     background: #24204A;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -57,9 +59,12 @@ header > nav > .nav-menu > li > a {
     margin: 51px 0 43px 0;
 }
 
+/*MAIN -> HERO*/
+
 main {
     padding-top: 113px;
     background-color: #24204A;
+    margin: 0;
 }
 
 main .hero {
@@ -70,11 +75,275 @@ main .hero {
     align-items: center;
 }
 
-.hero > .lamp {
+main .w-1153 {
+    width: 1153px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero >  .w-1153 > .about {
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.hero > .w-1153 > .about > .rectangle {
+    width: 145px;
+    height: 41px;
+    border-radius: 8px;
+    background: #4B4864;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero > .w-1153 > .about > .rectangle > p {
+    color: #8E88C1;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%; /* 20.8px */
+    letter-spacing: 0.8px;
+}
+
+.hero > .w-1153 > .about > h1 {
+    width: 261px;
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.8px;
+}
+
+.hero > .w-1153 > .about > p {
+    width: 570px;
+    height: 85px;
+    color: #8E88C1;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%; /* 20.8px */
+    letter-spacing: 0.8px;
+}
+
+.hero > .w-1153 > .about > button {
+    width: 200px;
+    height: 56px;
+    border: none;
+    border-radius: 8px;
+    background: #3F50E7;
+    box-shadow: 0 6px 20px 0 rgba(0, 255, 224, 0.20);
+    color: #FFF;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.hero > .w-1153 > .lamp {
     width: 375px;
     height: 411px;
     border-radius: 8px;
     background: #827EAC;
     box-shadow: 0 4px 50px 0 rgba(0, 0, 0, 0.25);
-    margin-right: 132px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 48px;
+}
+
+/*MAIN -> FEATURES*/
+
+main .features {
+    height: 764px;
+    background: #071341;
+    display: flex;
+
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    padding-top: 50px;
+}
+
+main .features > .stats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 73px;
+}
+
+main .features > .stats > .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+
+main .features > .stats > .item > .orange {
+    width: 56.144px;
+    height: 56px;
+    border-radius: 8px;
+    background: #FF6853;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main .features > .stats > .item > .pink {
+    width: 56.144px;
+    height: 56px;
+    border-radius: 8px;
+    background: #FF537C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .features > .stats > .item > .light-green {
+    width: 56.144px;
+    height: 56px;
+    border-radius: 8px;
+    background: #80D2C4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .features > .stats > .item > .blue {
+    width: 56.144px;
+    height: 56px;
+    border-radius: 8px;
+    background: #3F50E7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .features > .stats > .item > .green {
+    width: 56.144px;
+    height: 56px;
+    border-radius: 8px;
+    background: #95CB7C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .features > .stats > .item > .text {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+
+}
+
+main .features > .stats > .item > .text > h5 {
+    width: 38.098px;
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+main .features > .stats > .item > .text > p {
+    width: 101.26px;
+    color: #8E88C1;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.8px;
+}
+
+main .features > h2 {
+    width: 1074px;
+    color: #FFF;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px; /* 116.667% */
+}
+
+main .features > p {
+    color: #8E88C1;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.8px;
+}
+
+main .features > .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+main .features > .cards > .card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 26px;
+    width: 209px;
+    height: 206px;
+    border-radius: 8px;
+    border: 2px solid #8E88C1;
+    padding-top: 40px;
+}
+
+main .features > .cards > .card > p {
+    width: 178px;
+    color: #8E88C1;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 125% */
+    letter-spacing: 0.8px;
+}
+
+main .location iframe {
+    width: 100%;
+    height: 664px;
+}
+
+/*FOOTER*/
+
+footer {
+    width: 100%;
+    height: 94px;
+    background: #071341;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    width: 96px;
+    height: 24.039px;
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 200%; /* 24px */
 }
