@@ -1,0 +1,17 @@
+@media screen and (max-width: 768px) {
+    .container {
+        width: 375px;
+        height: auto;
+        min-height: 1040px;
+        padding: 32px 16px;
+        flex-direction: column;
+        gap: 32px;
+    }
+    .box {
+        width: 344px;
+    }
+
+    .box h5 {
+        margin: 16px 0 8px 0;
+    }
+}

@@ -1,0 +1,12 @@
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+    .container {
+        width: 768px;
+        min-height: 652px;
+        padding: 48px 24px;
+        flex-wrap: wrap;
+        gap: 40px 24px;
+    }
+    .box {
+        width: 348px;
+    }
+}
