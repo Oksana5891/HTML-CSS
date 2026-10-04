@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    gap: 30px;
+}
+
+/*.btn-primary {*/
+/*    background-color: #643030;*/
+/*}*/
+
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    grid-template-rows: repeat(2, 4fr);
+    padding: 20px;
+    gap: 20px;
+}
+
+#carouselExample {
+    height: 50vh;
+}
+
+#carouselExample img {
+    height: 50vh;
+    object-fit: cover;
+}
