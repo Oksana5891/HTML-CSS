@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+}
+
+.wrapper {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-areas:
+    "header header header"
+    "left-side top-side right-side"
+    "left-side bottom-side right-side"
+    "footer footer footer";
+
+}
+
+header {
+    grid-area: header;
+    background: #D9D9D9;
+}
+
+.left {
+    grid-area: left-side;
+    background: #C0BDBD;
+}
+
+.top {
+    grid-area: top-side;
+    background: #827878;
+}
+
+.bottom {
+    grid-area: bottom-side;
+    background: #B7ADAD;
+}
+
+.right {
+    grid-area: right-side;
+    background: #C0BDBD;
+}
+
+footer {
+    grid-area: footer;
+    background: #D9D9D9;
+}
