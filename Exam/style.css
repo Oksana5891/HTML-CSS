@@ -137,14 +137,43 @@ header nav ul button {
     font-weight: 400;
     line-height: normal;
     margin: 30px 0 30px 0;
+    border-left: 3px solid #2B2C34;
+    padding-left: 12px;
 }
 
-#email {
+.subscribe-form {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+input[type="email"] {
     width: 444px;
     height: 67px;
-    padding: 21px 200px 21px 25px;
-    align-items: center;
-    gap: 10px;
+    padding: 0 25px;
     border-radius: 8px;
     background: #FFFFFE;
+}
+
+input[type="email"]::placeholder {
+    color: #C0C0C0;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sbs-button {
+    height: 67px;
+    padding: 20px 23px 19px 23px;
+    border-radius: 8px;
+    background: #6246EA;
+    color: #FFFFFE;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
 }
