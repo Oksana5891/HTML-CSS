@@ -179,3 +179,99 @@ input[type="email"]::placeholder {
 }
 
 /*SECTION CATEGORY*/
+
+.category {
+    min-height: 500px;
+    background: #EFF0F3;
+    padding: 67px 0 68px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.category-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 0 3px 0;
+}
+
+.category-title h2 {
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.category-title a {
+    color: #2B2C34;
+    text-align: right;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.category-title svg {
+    margin-left: 12px;
+}
+
+.category-card {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 37px;
+}
+
+.card, .card-active {
+    width: 220px;
+    height: 280px;
+    border-radius: 8px;
+    background: #FFFFFE;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 65px;
+    left: 30px;
+}
+
+.card h3, .card-active h3 {
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.card-active {
+    background: #6246EA;
+}
+
+.card-active > .icon {
+    border-radius: 7.458px;
+    background: #FFFFFE;
+}
+
+.card-active > .icon svg {
+    margin: 18px 10px 18px 10px;
+}
+
+.card-active h3 {
+    color: #FFFFFE;
+}
