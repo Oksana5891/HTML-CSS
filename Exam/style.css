@@ -283,6 +283,7 @@ input[type="email"]::placeholder {
     min-height: 2504px;
     padding: 80px 0 80px 0;
     display: flex;
+    align-items: center;
     flex-direction: column;
     gap: 80px;
 }
@@ -291,10 +292,6 @@ input[type="email"]::placeholder {
     display: flex;
     flex-direction: column;
     gap: 30px;
-}
-
-.article-title {
-    display: flex;
 }
 
 .article-content {
@@ -357,3 +354,74 @@ input[type="email"]::placeholder {
     line-height: normal;
     text-transform: capitalize;
 }
+
+.articles button {
+    display: flex;
+    padding: 20px 23px 19px 23px;
+    gap: 10px;
+    border-radius: 8px;
+    background: #6246EA;
+    width: 165px;
+    height: 64px;
+    color: #FFFFFE;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+/*SUBSCRIBE-SECTION*/
+
+.subscribe-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 58px 372px;
+    gap: 10px;
+    background: #EFF0F3;
+}
+
+.subscribe-content {
+    width: 100%;
+    max-width: 696px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.ellipse {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background: #FFFFFE;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.subscribe-content h3 {
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.subscribe-content p {
+    color: #C0C0C0;
+    text-align: center;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/*FOOTER*/
