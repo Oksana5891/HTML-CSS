@@ -189,14 +189,14 @@ input[type="email"]::placeholder {
     gap: 50px;
 }
 
-.category-title {
+.content-title {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 2px 0 3px 0;
 }
 
-.category-title h2 {
+.content-title h2 {
     color: #2B2C34;
     font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 24px;
@@ -206,7 +206,7 @@ input[type="email"]::placeholder {
     text-transform: capitalize;
 }
 
-.category-title a {
+.content-title a {
     color: #2B2C34;
     text-align: right;
     font-family: "Plus Jakarta Sans", sans-serif;
@@ -217,7 +217,7 @@ input[type="email"]::placeholder {
     text-transform: capitalize;
 }
 
-.category-title svg {
+.content-title svg {
     margin-left: 12px;
 }
 
@@ -274,4 +274,86 @@ input[type="email"]::placeholder {
 
 .card-active h3 {
     color: #FFFFFE;
+}
+
+/*SECTION ARTICLES*/
+
+.articles {
+    background: #FFFFFE;
+    min-height: 2504px;
+    padding: 80px 0 80px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.featured-article {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.article-title {
+    display: flex;
+}
+
+.article-content {
+    display: flex;
+    gap: 16px;
+}
+
+.article {
+    display: flex;
+    width: 300px;
+    height: 425px;
+    padding: 20px;
+    flex-direction: column;
+    align-items: stretch;
+    border-radius: 12px;
+    background: #FFFFFE;
+    box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
+}
+
+.article h3 {
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 25px;
+}
+
+.author-content {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: auto;
+}
+
+.author-name {
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.author-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4.2px;
+}
+
+.author-info p {
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
 }
