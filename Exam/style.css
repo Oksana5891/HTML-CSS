@@ -425,3 +425,102 @@ input[type="email"]::placeholder {
 }
 
 /*FOOTER*/
+
+footer {
+    width: 100%;
+    /*height: 435px;*/
+    background: #E4E5E9;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 160px;
+    margin: 70px auto 50px auto;
+}
+
+.about-website {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    width: 284px;
+    height: 138px;
+}
+
+.about-website p {
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.social-media ul{
+    display: flex;
+    gap: 30px;
+}
+
+.footer-link {
+    display: flex;
+    align-items: flex-start;
+    gap: 95px;
+}
+
+.footer-link h4 {
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.footer-link ul li a {
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.element {
+    width: 129px;
+}
+
+.get-in-touch-link {
+    width: 159px;
+}
+
+.element ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.company-info {
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.company-info p {
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.company-info hr {
+    height: 1px;
+    background: #C0C0C0;
+}
